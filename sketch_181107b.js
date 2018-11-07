@@ -9,5 +9,5 @@ function draw() {
   } else {
     fill(random(255),100,100);
   }
-  rect(touchX, touchY, 100, 100);
+  rect(mouseIsPressedX, mouseIsPressedY, 100, 100);
 }

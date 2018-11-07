@@ -1,5 +1,5 @@
 function setup() {
-  size(720,720);
+  createCanvas(720,720);
 }
 
 function draw() {
@@ -9,5 +9,5 @@ function draw() {
   } else {
     fill(random(255),100,100);
   }
-  rect(mouseX, mouseY, 100, 100);
+  rect(touchX, touchY, 100, 100);
 }
